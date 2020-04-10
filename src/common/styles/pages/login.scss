@@ -1,0 +1,61 @@
+.login-page {
+  height: 99vh;
+
+  .login-header {
+      box-sizing: border-box;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      display: flex;
+      align-items: center;
+      padding: 0px 24px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 14px;
+
+      .site-name {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        margin-right: 20px;
+      }
+    }
+
+    .login-main {
+      display: flex;
+      height: calc(100% - 40px);
+      min-height: 500px;
+      justify-content: center;
+      align-items: center;
+
+      .login-content {
+        width: 300px;
+        text-align: center;
+        .title {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 24px;
+          margin-bottom: 30px;
+        }
+      }
+      .login-form {
+        .ant-form-item-label > label.ant-form-item-required::before {
+          content: ' ';
+        }
+
+        .ant-input {
+          background-color: #262626;
+          border: 1px solid #4D4D4D;
+          color: #fff;
+        }
+        .ant-form-item-label > label {
+          color: #fff;
+        }
+        .login-btn {
+          width: 100%;
+        }
+      }
+    }
+
+}
