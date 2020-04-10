@@ -1,0 +1,218 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+    font-family: Tahoma, "Helvetica Neue", Helvetica, "Microsoft YaHei", Arial, sans-serif;
+}
+
+.darkTheme {
+    background: $dark-bg;
+    min-height: 100%;
+    color: $color-white;
+}
+
+.darkTheme {
+    .menu-active {
+        color: $menu-active;
+    }
+
+    .table-no-data {
+        background: $bg-content-01;
+        width: 100%;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+        color: $color-text-02;
+    }
+}
+
+.ant-btn {
+    border: 0;
+    outline: none;
+}
+
+.ant-checkbox-wrapper {
+    color: #fff;
+}
+
+.ant-btn,
+.ant-btn:hover,
+.ant-btn:focus,
+.ant-btn::selection {
+    background-color: #e6e6e6;
+}
+
+.ant-btn-danger,
+.ant-btn-danger:hover,
+.ant-btn-danger:focus,
+.ant-btn-danger::selection {
+    background-color: #ff4d4f;
+}
+
+.ant-btn-primary,
+.ant-btn-primary:hover,
+.ant-btn-primary:focus,
+.ant-btn-primary::selection {
+    background-color: $btn-primary;
+    padding: 4px 11px;
+}
+
+.ant-btn.btn-gray,
+.ant-btn.btn-gray:hover,
+.ant-btn.btn-gray:focus,
+.ant-btn.btn-gray::selection {
+    background-color: #4d4d4d;
+    color: #fff;
+}
+
+.ant-btn.cancel-btn,
+.ant-btn.cancel-btn:hover,
+.ant-btn.cancel-btn:focus,
+.ant-btn.cancel-btn::selection {
+    background-color: #e6e6e6;
+    color: #000;
+    padding: 4px 11px;
+}
+
+// 去除ant design按钮光晕
+button[ant-click-animating-without-extra-node]:after {
+    border: 0 none;
+    opacity: 0;
+    animation:none 0 ease 0 1 normal;
+}
+
+.ant-table thead > tr > th,
+.ant-table thead > tr > th:hover,
+.ant-table tbody > tr,
+.ant-table tbody > tr > td,
+.ant-table td.ant-table-column-sort {
+    background: $bg-content-01;
+    border-bottom: 1px solid $bg-content-02;
+    color: $color-white;
+}
+
+.ant-table-filter-trigger-container,
+.ant-table-filter-trigger-container:hover {
+    background: $bg-content-01;
+}
+
+.ant-table-filter-trigger,
+.ant-table-filter-trigger:hover,
+.ant-table-filter-trigger-container-open .ant-table-filter-trigger
+ {
+    color: #fff;
+}
+
+.ant-pagination,
+.ant-pagination .ant-pagination-total-text,
+.ant-pagination-item,
+.ant-pagination-item a {
+    background: none;
+    border: none;
+    color: $color-text-02;
+}
+
+.ant-pagination-item:hover,
+.ant-pagination-item:hover a,
+.ant-pagination-item:focus,
+.ant-pagination-item:focus a,
+.ant-pagination-item-active:focus,
+.ant-pagination-item-active:focus a,
+.ant-pagination-item-active:hover,
+.ant-pagination-item-active:hover a {
+    color: #fff;
+}
+
+.ant-pagination-item-active,
+.ant-pagination-item-active a {
+    color: #fff;
+}
+
+.ant-pagination-prev .ant-pagination-item-link,
+.ant-pagination-next .ant-pagination-item-link {
+    border: none;
+    background: none;
+    color: #808080;
+}
+
+.ant-pagination-prev:hover .ant-pagination-item-link,
+.ant-pagination-next:hover .ant-pagination-item-link {
+    border: none;
+    background: none;
+    color: #fff;
+}
+
+.ant-upload-list-item a {
+    color: $color-text-01;
+}
+
+.ant-upload-list-item,
+.ant-upload-list-item span,
+.ant-upload-list-item:hover,
+.ant-upload-list-item:hover > span  {
+    color: $color-text-04;
+}
+
+.ant-modal-footer {
+    text-align: left;
+    padding: 20px 16px 16px
+}
+
+.ant-select-dropdown,
+.ant-select-dropdown .ant-select-item {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+.ant-select-dropdown .ant-select-item-option-disabled {
+    color: #808080;
+    background-color: #4d4d4d;
+}
+
+.ant-select-item-option-active:not(.ant-select-item-option-disabled) {
+    background: #4d4d4d;
+    color: #fff;
+}
+
+
+.ant-select-item-option-selected:not(.ant-select-item-option-disabled) {
+    background: #262626;
+    color: #fff
+}
+
+.ant-input-number {
+    background: #1a1a1a;
+    border: none;
+    color: #fff;
+}
+
+.ant-picker {
+    background: $bg-label;
+    color: #fff;
+    border: none;
+}
+
+.ant-picker .anticon-calendar {
+    color: #fff;
+}
+
+.ant-picker-input > input {
+    color: #fff;
+}
+
+.ant-select-multiple .ant-select-selector {
+    background: #4d4d4d;
+    border: none;
+}
+
+.ant-select-multiple .ant-select-selector .ant-select-selection-item {
+    background: none;
+    border: none;
+    color: #fff;
+}
+
+.ant-select-multiple .ant-select-selection-item-remove {
+    color: #fff;
+}
