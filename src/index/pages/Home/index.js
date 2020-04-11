@@ -5,7 +5,7 @@ import { withRouter } from "react-router";
 function Login(props) {
     return (
         <div className="home-page">
-            Home page
+            主页
         </div>
     )
 }

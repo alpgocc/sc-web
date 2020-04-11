@@ -1,0 +1,43 @@
+
+.site-name {
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+margin-right: 20px;
+color: #edad0f;
+
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+-khtml-user-select: none;
+user-select: none;
+
+    span {
+        display: inline-block;
+        margin-right: 10px;
+        padding: 5px;
+        font-weight: 900;
+        border-radius: 3px 6px 3px 6px;
+    }
+
+    .site-name-1 {
+        background-color: #01ad95;
+    }
+
+    .site-name-2 {
+        background-color: #f4582f;
+    }
+
+    .site-name-3 {
+        background-color: #03aa64;
+    }
+
+    .site-name-4 {
+        background-color: #f24c72;
+    }
+
+    .site-name-5 {
+        background-color: #00a7ec;
+    }
+}

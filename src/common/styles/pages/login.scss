@@ -1,5 +1,11 @@
 .login-page {
   height: 99vh;
+  background-image: radial-gradient(
+    rgba(0, 0, 0, 0.1) 0%,
+    rgba(0, 0, 0, 0.8) 50%,
+    rgba(0, 0, 0, 1) 100%),
+    url(../../../images/blogin-bg.jpg);
+  background-size: cover;
 
   .login-header {
       box-sizing: border-box;
@@ -9,17 +15,9 @@
       display: flex;
       align-items: center;
       padding: 0px 24px;
-      color: #fff;
+      color: #edad0f;
       font-weight: 500;
       font-size: 14px;
-
-      .site-name {
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 24px;
-        margin-right: 20px;
-      }
     }
 
     .login-main {
@@ -44,18 +42,14 @@
           content: ' ';
         }
 
-        .ant-input {
-          background-color: #262626;
-          border: 1px solid #4D4D4D;
-          color: #fff;
-        }
         .ant-form-item-label > label {
           color: #fff;
         }
         .login-btn {
           width: 100%;
+          color: #edad0f;
+          background-color: #8b4b0d;
         }
       }
     }
-
 }

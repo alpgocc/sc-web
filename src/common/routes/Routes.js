@@ -9,10 +9,13 @@ import { getToken } from '../../index/utils/auth'
 
 import Login from "../../index/pages/Login/index";
 import Home from "../../index/pages/Home/index";
+import CabbageMarket from "../../index/pages/CabbageMarket/index";
+import MyCabbage from "../../index/pages/MyCabbage/index";
+import Settings from "../../index/pages/Settings/index";
 
 import {
     getInfo
-} from '../api/index'
+} from '../api/index-mock'
 
 import { loginAction } from '../../index/actions/login';
 
@@ -57,6 +60,9 @@ function Routes (props) {
                       </Switch>
                     : <Switch>
                         <Route exact path="/" component={Home} />
+                        <Route exact path="/cabbage-market" component={CabbageMarket} />
+                        <Route exact path="/my-cabbage" component={MyCabbage} />
+                        <Route exact path="/settings" component={Settings} />
                       </Switch>
                 }
             </ErrorCatch>
